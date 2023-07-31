@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['-', 'PCOS']
+
+roboflow:
+  workspace: talentsprint
+  project: femicheck
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/talentsprint/femicheck/1
